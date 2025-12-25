@@ -5,14 +5,17 @@ layout: home
 hero:
   name: "NITIC_HirasawaLab"
   text: "Robotics Documents"
-  tagline: My great project tagline
+  tagline: 2025年度 廃炉創造ロボコン 制作のノウハウ
+  image:
+    src: /images/Shiho.png
+    alt: 2025 Shiho
   actions:
     - theme: brand
-      text: What is ROS2?
-      link: /Getting_Started/what_is_ros2
+      text: About "SHIHO"
+      link: /about_shiho/about_shiho
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Getting Started
+      link: /getting_started/what_is_ros2
 
 features:
   - title: Feature A

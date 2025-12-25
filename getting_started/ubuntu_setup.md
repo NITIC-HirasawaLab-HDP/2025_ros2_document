@@ -28,3 +28,6 @@ Raspberry Piへのインストール方法は他の節で解説します
 4. Ubuntuのインストール画面が出てくるので、画面に従ってセットアップします。
    
    日本語配列にするのは構いませんが、言語はEnglishにしておくことをおすすめします。日本語のままだとたまにトラブルが起こります。
+
+## More
+Check out the documentation for the [Install Ubuntu Desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview).

@@ -15,9 +15,9 @@ export default defineConfig({
       {
         text: 'Getting Started',
         items: [
-          { text: 'What is ROS2', link: '/Getting_Started/what_is_ros2.md' },
-          { text: 'Ubuntu setup', link: '/Getting_Started/ubuntu_setup.md' },
-          { text: 'ROS2 setup', link: '/Getting_Started/ROS2_setup.md' }
+          { text: 'What is ROS2', link: '/getting_started/what_is_ros2.md' },
+          { text: 'Ubuntu setup', link: '/getting_started/ubuntu_setup.md' },
+          { text: 'ROS2 setup', link: '/getting_started/ros2_setup.md' }
         ]
       },
       {
