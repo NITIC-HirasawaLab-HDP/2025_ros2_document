@@ -4,6 +4,19 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "NITIC_HirasawaLab",
   description: "Robotics Documents",
+  markdown: {
+    config: (md) => {
+      const defaultFence = md.renderer.rules.fence!
+      md.renderer.rules.fence = (tokens, idx, options, env, self) => {
+        const token = tokens[idx]
+        if (token.info === 'mermaid') {
+          const code = token.content.trim()
+          return `<Mermaid code="${md.utils.escapeHtml(code).replace(/"/g, '&quot;')}" />`
+        }
+        return defaultFence(tokens, idx, options, env, self)
+      }
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -12,6 +25,12 @@ export default defineConfig({
     ],
 
     sidebar: [
+      {
+        text: 'About SHIHO',
+        items: [
+          { text: 'About SHIHO', link: '/about_shiho/about_shiho.md' }
+        ]
+      },
       {
         text: 'Getting Started',
         items: [
@@ -23,7 +42,7 @@ export default defineConfig({
       {
         text: 'Troubleshooting',
         items: [
-          { text: 'hoge', link: '/hoge' },
+          { text: 'hoge', link: '/trouble_shooting/hoge.md' },
         ]
       }
     ],
