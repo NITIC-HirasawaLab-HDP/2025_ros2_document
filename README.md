@@ -50,7 +50,7 @@ npm install
 npm run docs:dev
 ```
 
-ブラウザで http://localhost:5173 にアクセスしてください。
+ブラウザで `http://localhost:5173` にアクセスしてください。
 
 ### 本番用ビルド
 
