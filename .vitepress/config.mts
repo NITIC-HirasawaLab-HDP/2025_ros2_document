@@ -44,6 +44,12 @@ export default defineConfig({
         items: [
           { text: 'hoge', link: '/trouble_shooting/hoge.md' },
         ]
+      },
+      {
+        text: 'GitHub Handson',
+        items: [
+          { text: 'What is GitHub', link: '/github_handson/what_is_github.md' },
+        ]
       }
     ],
 
