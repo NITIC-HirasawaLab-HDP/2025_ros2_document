@@ -1,3 +1,17 @@
+<!-- Copyright 2026 Keita Sekiguchi
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://apache.org
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. -->
+
 # ROS2 Setup ⚙️
 
 <Badge type="tip" text="所要時間: 約30分" />
@@ -19,13 +33,13 @@ graph LR
     E --> F[✅ 動作確認]
 ```
 
-| ステップ | 内容 | 所要時間 |
-|---------|------|---------|
-| 1 | 依存パッケージのインストール | 約2分 |
-| 2 | GPGキーとリポジトリの設定 | 約1分 |
-| 3 | ROS2のインストール | 約10〜20分 |
-| 4 | 環境設定 | 約1分 |
-| 5 | 動作確認 | 約2分 |
+| ステップ | 内容                         | 所要時間   |
+| -------- | ---------------------------- | ---------- |
+| 1        | 依存パッケージのインストール | 約2分      |
+| 2        | GPGキーとリポジトリの設定    | 約1分      |
+| 3        | ROS2のインストール           | 約10〜20分 |
+| 4        | 環境設定                     | 約1分      |
+| 5        | 動作確認                     | 約2分      |
 
 ---
 
@@ -105,10 +119,10 @@ sudo apt install ros-humble-desktop -y
 ::: tip 💡 インストールパッケージの選択
 ROS2 には複数のインストールオプションがあります：
 
-| パッケージ | 内容 | おすすめ度 |
-|-----------|------|-----------|
-| `ros-humble-desktop` | GUI ツール（RViz, Gazebo等）を含む完全版 | ⭐⭐⭐ |
-| `ros-humble-ros-base` | コア機能のみ（軽量版） | ⭐⭐ |
+| パッケージ            | 内容                                     | おすすめ度 |
+| --------------------- | ---------------------------------------- | ---------- |
+| `ros-humble-desktop`  | GUI ツール（RViz, Gazebo等）を含む完全版 | ⭐⭐⭐        |
+| `ros-humble-ros-base` | コア機能のみ（軽量版）                   | ⭐⭐         |
 
 通常は **desktop** 版をおすすめします。可視化ツールが含まれており、デバッグに便利です。
 :::
