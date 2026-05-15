@@ -1,3 +1,17 @@
+<!-- Copyright 2026 Keita Sekiguchi
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://apache.org
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. -->
+
 # Ubuntu Setup 🐧
 
 <Badge type="tip" text="所要時間: 約30分" />
@@ -18,10 +32,10 @@ ROS 2 Humble は **Ubuntu 22.04 LTS** を公式サポートしています。
 最新の Ubuntu 24.04 では ROS 2 Jazzy を使用します。
 :::
 
-| バージョン | コードネーム | ROS 2 対応 |
-|:---:|:---:|:---:|
+|    バージョン    |  コードネーム   |    ROS 2 対応    |
+| :--------------: | :-------------: | :--------------: |
 | Ubuntu 22.04 LTS | Jammy Jellyfish | Humble Hawksbill |
-| Ubuntu 24.04 LTS | Noble Numbat | Jazzy Jalisco |
+| Ubuntu 24.04 LTS |  Noble Numbat   |  Jazzy Jalisco   |
 
 👉 **ダウンロードリンク**: [Ubuntu 22.04.5 LTS (Jammy Jellyfish)](https://releases.ubuntu.com/jammy/)
 
@@ -40,10 +54,10 @@ USBメモリに Ubuntu のイメージを書き込んで、ブートメディア
 
 #### 必要なもの
 
-| アイテム | 要件 |
-|:---|:---|
-| 💾 USBメモリ | **16GB以上** （32GB推奨） |
-| 🖥️ Windows PC | Rufus を実行するため |
+| アイテム       | 要件                          |
+| :------------- | :---------------------------- |
+| 💾 USBメモリ    | **16GB以上** （32GB推奨）     |
+| 🖥️ Windows PC   | Rufus を実行するため          |
 | 📁 ISO ファイル | Step 1 でダウンロードしたもの |
 
 ::: danger ⚠️ 注意
@@ -84,12 +98,12 @@ PC電源OFF → USBメモリ接続 → 電源ON → BIOS画面へ
 
 ::: tip 💡 BIOS キーについて
 メーカーによって異なります：
-| メーカー | キー |
-|:---|:---|
-| ASUS / DELL / HP | `F2` |
-| Lenovo | `F1` または `Enter` → `F1` |
-| MSI / Gigabyte | `Del` |
-| その他 | `F10`, `F12`, `Esc` など |
+| メーカー         | キー                       |
+| :--------------- | :------------------------- |
+| ASUS / DELL / HP | `F2`                       |
+| Lenovo           | `F1` または `Enter` → `F1` |
+| MSI / Gigabyte   | `Del`                      |
+| その他           | `F10`, `F12`, `Esc` など   |
 :::
 
 ---
@@ -120,11 +134,11 @@ Ubuntu のインストーラーが起動したら、画面の指示に従って�
 :::
 
 ::: details インストール時の推奨設定
-| 項目 | 推奨設定 |
-|:---|:---|
-| Language | **English** |
-| Keyboard | Japanese (お使いの配列に合わせて) |
-| Installation Type | Normal Installation |
+| 項目               | 推奨設定                            |
+| :----------------- | :---------------------------------- |
+| Language           | **English**                         |
+| Keyboard           | Japanese (お使いの配列に合わせて)   |
+| Installation Type  | Normal Installation                 |
 | その他のオプション | Download updates while installing ✅ |
 :::
 

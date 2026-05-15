@@ -1,3 +1,17 @@
+<!-- Copyright 2026 Keita Sekiguchi
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://apache.org
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. -->
+
 # What is GitHub? 🐙
 
 ::: info 📖 このページで行うこと
@@ -31,11 +45,11 @@ Git/GitHubの概要をざっくり説明します。
 - 個人開発はもちろん、**共同開発で重宝**することになります
 :::
 
-| 特徴 | 説明 |
-|------|------|
-| 🌐 **コード共有** | 世界中の人々とコードを共有可能 |
-| 👥 **共同開発** | チームでの開発をスムーズに |
-| 📜 **履歴管理** | 全ての変更履歴を追跡 |
+| 特徴               | 説明                           |
+| ------------------ | ------------------------------ |
+| 🌐 **コード共有**   | 世界中の人々とコードを共有可能 |
+| 👥 **共同開発**     | チームでの開発をスムーズに     |
+| 📜 **履歴管理**     | 全ての変更履歴を追跡           |
 | 🔄 **バックアップ** | クラウド上にコードを安全に保存 |
 
 ::: details 🔍 ライバルツール
@@ -59,10 +73,10 @@ Git/GitHubを使う上で、いくつかの用語を覚えておく必要があ�
 - プロジェクトごとに作成されることが多い
 :::
 
-| 種類 | 説明 |
-|------|------|
+| 種類                     | 説明                               |
+| ------------------------ | ---------------------------------- |
 | 🌐 **リモートリポジトリ** | サーバー（GitHub）にあるリポジトリ |
-| 💻 **ローカルリポジトリ** | 自分のPCにあるリポジトリ |
+| 💻 **ローカルリポジトリ** | 自分のPCにあるリポジトリ           |
 
 ### コミット (Commit)
 
@@ -125,31 +139,31 @@ Gitを操作する際に使用する主なコマンドを紹介します。
 
 ### 基本コマンド
 
-| コマンド | 説明 |
-|---------|------|
-| `git init` | 新しいリポジトリを作成する |
-| `git clone <url>` | リモートリポジトリをローカルにクローンする |
-| `git add <file>` | ファイルをステージングエリアに追加する |
-| `git commit -m "<message>"` | ステージングエリアの変更をコミットする |
-| `git push` | ローカルのコミットをリモートリポジトリにプッシュする |
-| `git pull` | リモートリポジトリから変更を取得し、ローカルにマージする |
+| コマンド                    | 説明                                                     |
+| --------------------------- | -------------------------------------------------------- |
+| `git init`                  | 新しいリポジトリを作成する                               |
+| `git clone <url>`           | リモートリポジトリをローカルにクローンする               |
+| `git add <file>`            | ファイルをステージングエリアに追加する                   |
+| `git commit -m "<message>"` | ステージングエリアの変更をコミットする                   |
+| `git push`                  | ローカルのコミットをリモートリポジトリにプッシュする     |
+| `git pull`                  | リモートリポジトリから変更を取得し、ローカルにマージする |
 
 ### ブランチ操作
 
-| コマンド | 説明 |
-|---------|------|
-| `git branch` | ローカルブランチの一覧を表示する |
-| `git branch <name>` | 新しいブランチを作成する |
-| `git checkout <branch>` | 指定したブランチに移動する |
-| `git merge <branch>` | 指定したブランチを現在のブランチにマージする |
+| コマンド                | 説明                                         |
+| ----------------------- | -------------------------------------------- |
+| `git branch`            | ローカルブランチの一覧を表示する             |
+| `git branch <name>`     | 新しいブランチを作成する                     |
+| `git checkout <branch>` | 指定したブランチに移動する                   |
+| `git merge <branch>`    | 指定したブランチを現在のブランチにマージする |
 
 ### 状態確認
 
-| コマンド | 説明 |
-|---------|------|
+| コマンド     | 説明                     |
+| ------------ | ------------------------ |
 | `git status` | ファイルの状態を表示する |
-| `git log` | コミット履歴を表示する |
-| `git diff` | 変更内容を表示する |
+| `git log`    | コミット履歴を表示する   |
+| `git diff`   | 変更内容を表示する       |
 
 ---
 

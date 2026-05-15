@@ -1,3 +1,17 @@
+<!-- Copyright 2026 Keita Sekiguchi
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://apache.org
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. -->
+
 # What is ROS2? 🤖
 
 ::: info 📖 このページで行うこと
@@ -19,12 +33,12 @@ OSとは名ばかりで、「**ロボット用の通信フレームワークと�
 
 ### ROS2の主な特徴
 
-| 特徴 | 説明 |
-|------|------|
-| 🔗 **分散システム** | 複数のコンピュータ間で簡単に通信可能 |
+| 特徴                   | 説明                                     |
+| ---------------------- | ---------------------------------------- |
+| 🔗 **分散システム**     | 複数のコンピュータ間で簡単に通信可能     |
 | 📦 **豊富なライブラリ** | センサー制御から経路計画まで幅広くカバー |
-| 🌐 **オープンソース** | 無料で利用・改変可能 |
-| 🛡️ **リアルタイム対応** | 産業用ロボットにも使える信頼性 |
+| 🌐 **オープンソース**   | 無料で利用・改変可能                     |
+| 🛡️ **リアルタイム対応** | 産業用ロボットにも使える信頼性           |
 
 ROS2の強みは、抽象化されたフレームワークで、**かんたんにロボットの制御システムを構築できる**ところにあります。
 
@@ -84,10 +98,10 @@ DockerやWSL等の仮想環境でも開発が可能ですが、GUIでロボッ�
 
 ROS2のバージョンにはいくつか種類があり、**LTSバージョン**を使うことを強くおすすめします。
 
-| ROS2 バージョン | 対応 Ubuntu | サポート期限 | 推奨度 |
-|----------------|-------------|-------------|--------|
-| **Humble Hawksbill** | 22.04 LTS | 2027年5月 | ⭐⭐⭐ (本ドキュメントで使用) |
-| **Jazzy Jalisco** | 24.04 LTS | 2029年5月 | ⭐⭐⭐ |
+| ROS2 バージョン      | 対応 Ubuntu | サポート期限 | 推奨度                     |
+| -------------------- | ----------- | ------------ | -------------------------- |
+| **Humble Hawksbill** | 22.04 LTS   | 2027年5月    | ⭐⭐⭐ (本ドキュメントで使用) |
+| **Jazzy Jalisco**    | 24.04 LTS   | 2029年5月    | ⭐⭐⭐                        |
 
 2025年度ロボット「紫峰」では、安定性を重視して **ROS2 Humble Hawksbill** を採用しました。そのため、本ドキュメントでも **Humble** をベースに解説を進めます。
 
